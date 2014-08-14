@@ -1,16 +1,39 @@
 body{
 
-	width:100%;
-	margin:auto;
 	
+	margin:0 auto;
+	
+}
+
+#contenedor-imagen{
+	width:100%;
+	background-color: black;
+	position: inherit;
 }
 
 
 
+#imagen-inicio{
+	width:1240px;
+	height: 660px;
+	margin: 0 auto;
+	z-index: 1;
+	float:center;	
+}
+
+#imagen-inicio img{
+	position:relative;
+}
+
 
 header{
-width:100%;
-background-image:("imagenes/fotoinicio.jpg");
+	width:1240px;
+	z-index: 2;
+	
+	position:absolute;
+	color: #fff;
+	float: center;
+	margin-left: 289px;
 
 }
 
@@ -18,16 +41,32 @@ header h1{
 	font-family: "Raleway";
 	font-size:80px;
 	font-weight: lighter;
+
 }
 
 header h2{
 	font-family: "Raleway";
 	font-size:60px;
+	margin: 0 auto;
 }
 
 header p{
 	font-family: "Arvo";
 	font-size:22px;
-	
+	width: 699px;
+	float: center;
+	text-align: center;
+	margin-top: 190px;
+}
 
+header p span{
+	font-family: "Arvo";
+	font-size:22px;
+	height: bold;
+	color:#D80000;
+}
+nav{
+	width:100%;
+	background-color: black;
+	height: 100px;
 }
