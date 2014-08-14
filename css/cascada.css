@@ -102,7 +102,7 @@ ul li{
 a{
 	text-decoration: none;	
 	display: block;
-	
+
 }
 
 .nav li:focus {
@@ -115,3 +115,8 @@ a{
 	border-bottom: #D80000;
 }
 
+#historia{
+	background-color:#B20000;
+}
+
+.historia-img1
