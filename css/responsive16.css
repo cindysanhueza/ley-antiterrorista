@@ -213,6 +213,31 @@ nav{
 	font-family: "Raleway";
 	font-weight: 300!important;
 	font-size:60px;
-	padding-top: 150px;
+	padding-top: 132px;
 	color: #fff;
+}
+
+.nueve img{
+	width: 100%;
+}
+
+.nueve p{
+	font-family: "Raleway";
+	font-size:20px;
+	text-align: center;
+	color: #fff;
+	font-weight: 400!important;
+	margin-top: px;
+
+}
+
+
+.ej1{
+	height: 30px;
+	background-color: red;
+}
+
+.ej2{
+	height: 30px;
+	background-color: green;
 }
