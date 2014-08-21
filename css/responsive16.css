@@ -233,7 +233,6 @@ nav{
 }
 
 .iconos{
-	background-color: blue;
 	height: 100%;
 	margin-top: 76px;
 }
@@ -255,12 +254,10 @@ nav{
 	text-align: center;
 	color: #fff;
 	font-weight: 400!important;
-	background-color: green;
 	margin-top: 47px;
 }
 
 .iconos-2{
-	background-color: blue;
 	height: 100%;
 	margin-top: 60px;
 }
