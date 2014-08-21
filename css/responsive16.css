@@ -265,7 +265,30 @@ nav{
 	margin-top: 60px;
 }
 
+/*Linea negra sobre fondo de mitades*/
+#linea-negra{
+	padding-top: 71px;
+	height: 150px;
+	width: 50%;
+	background-color: #000000;
+}
+/*Fin Linea negra sobre fondo de mitades*/
 
+#mitad-verde{
+	background-color: #71897D;
+	float: left;
+	width: 50%;
+	height: 1745px;
+
+}
+
+#mitad-rojo{
+	background-color: #B20000;
+	float: left;
+	width:50%; 
+	height: 1745px;
+	
+}
 
 .ej1{
 	height: 30px;
