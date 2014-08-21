@@ -205,4 +205,14 @@ nav{
 }
 
 
+#color-negro{
+	background-color:#000000;
+}
 
+.conducta h2{
+	font-family: "Raleway";
+	font-weight: 300!important;
+	font-size:60px;
+	padding-top: 150px;
+	color: #fff;
+}
