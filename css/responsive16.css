@@ -124,9 +124,17 @@ nav{
 .container{
 	height: 1420px;
 }
+
+.historia h2{
+	font-family: "Raleway";
+	font-weight: 300!important;
+	font-size:60px;
+	padding-top: 150px;
+	color: #000000;
+}
  
 .seis img{
-	margin-top: 270px;
+	margin-top: 50px;
 	width: 300px; 
 	height: 300px; 
 	margin-left: 0px!important;
