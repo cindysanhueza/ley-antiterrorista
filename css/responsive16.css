@@ -1,0 +1,176 @@
+
+#imagen-primera{
+	height: 650px;
+}
+
+.cero{
+	float: center;
+	text-align: center;
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+	z-index: 1;
+	position: absolute;
+	
+}
+
+.cero img{
+	float: center;
+	text-align: center;
+	padding: 0px;
+	width: 93%;
+}
+/*Titulo LEY*/
+.uno{
+
+	position: relative;
+	z-index: 2;
+}
+
+.uno h2{
+	font-family: "Raleway";
+	font-size:60px;
+	text-align: center;
+	float: center;
+	color: #fff;
+	font-weight: 400!important;
+	margin-top: 122px;
+}
+/*Fin Titulo LEY*/
+
+/*Titulo ANTITERRORISTA*/
+.dos{
+	z-index: 3;
+	position: relative;
+}
+
+.dos h1{
+	font-family: "Raleway";
+	font-size:80px;
+	font-weight: 300!important;
+	float: center!important;
+	color: #fff;
+	text-align: center;
+	margin-top: 0px;
+}
+/*Fin Titulo ANTITERRORISTA*/
+
+/*Inicio parrafo*/
+.tres{
+	z-index: 4;
+	position: relative;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+	margin-top:120px;
+}
+
+.tres p{
+	font-family: "Arvo";
+	font-size:22px!important;
+	text-align: center;
+	float: center;
+	font-weight: 400;
+	color:#fff;
+}
+
+ .tres p span{
+	font-family: "Arvo";
+	font-size:22px!important;
+	color:#D80000;
+	font-weight: 400;
+}
+/*Fin párrafo*/
+
+nav{
+	background-color: black;
+	height: 100px;
+	padding-top: 20px;
+	position: relative;
+}
+
+.cinco li{
+	font-family: "Raleway";
+	font-size:20px;
+	height: 400;
+	color: #fff;
+	list-style: none;
+	float:left; 
+	margin-top:20px; 
+	padding: 0px!important;
+	text-decoration: none;
+}
+
+.cinco a{
+	text-decoration: none;	
+	display: block;
+
+}
+
+.cinco li:focus {
+    padding-right: 0px;
+	border-bottom: #D80000!important;
+}
+     
+.cinco li:hover {
+	padding-right: 0px;
+	border-bottom: #D80000!important;
+}
+
+#color-rojo{
+	background-color:#B20000;
+	height:1420px;
+}
+
+.container{
+	height: 1420px;
+}
+ 
+.seis img{
+	margin-top: 270px;
+	width: 300px; 
+	height: 300px; 
+	margin-left: 0px!important;
+}
+
+.seis p{
+	
+	font-family: "Arvo";
+	font-size:20px;
+	font-weight: 400!important;
+	color:#000000;
+	margin-top: 365px;
+}
+
+.siete img{
+	width: 300px; 
+	height: 300px; 
+	margin-top: 100px;
+	margin-left: 0px!important;
+}
+
+.siete p{
+	margin-top: 247px;
+	font-family: "Arvo";
+	font-size:20px;
+	font-weight: 400!important;
+	color:#000000;
+}
+
+
+.ocho img{
+	width: 300px; 
+	height: 300px; 
+	margin-top: 100px;
+	margin-left: 0px!important;
+}
+
+.ocho p{
+	margin-top: 365px;
+	font-family: "Arvo";
+	font-size:20px;
+	font-weight: 400!important;
+	color:#000000;
+}
+
+
+

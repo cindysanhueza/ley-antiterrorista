@@ -2,7 +2,10 @@
 <html>
 	<head>
 	  <title>Ley Antiterrorista</title>
-	  <link rel="stylesheet" type="text/css" href="css/cascada.css"/>
+	  <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css"/>
+	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	   <link rel="stylesheet" type="text/css" href="css/responsive16.css"/>
 	 <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic' rel='stylesheet' type='text/css'>
 	  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
 	  <meta charset="UTF-8">
@@ -10,47 +13,66 @@
 	</head>
 
 	<body>
-	
-	
 
-	<header>
-	<h2>LEY</h2>
-	<h1>ANTITERRORISTA</h1>
-	<p>La ley <span>18.314</span> o ley Antiterrorista fue promulgada el 16 de mayo de 1984 vigente la constitución de 1980, periodo de dictadura militar. Década caracterizada principalmente por el aumento de protestas, las cuales, fueron duramente criminalizadas causando la promulgación de esta ley, con la finalidad de castigar de una forma más rápida y severa dichos actos.</p>
-	</header>
-
-	<div id="contenedor-imagen">
-		<div id="imagen-inicio"><img src="imagenes/fotoinicio.jpg"></div>
+	
+		
+	<div id="imagen-primera">
+		<div class="row">
+			<div class="col-md-16 col-lg-16 cero"><img src="imagenes/fotoinicio.jpg"></div> 
+			<div class="col-md-2 col-md-offset-7 col-lg-2 col-lg-offset-7 uno"><h2>LEY</h2></div>
+			<div class="col-md-12 col-md-offset-2 col-lg-12 col-lg-offset-2 dos"><h1>ANTITERRORISTA</h1></div>
+			<div class="col-md-8 col-md-offset-4 col-lg-8 col-lg-offset-4 tres"><p>La ley <span>18.314</span> o ley Antiterrorista fue promulgada el 16 de mayo de 1984 vigente la constitución de 1980, periodo de dictadura militar. Década caracterizada principalmente por el aumento de protestas, las cuales, fueron duramente criminalizadas causando la promulgación de esta ley, con la finalidad de castigar de una forma más rápida y severa dichos actos.</p></div>
+		</div>
 	</div>
 	
-		
-		
 	
 	<nav>
-		<ul>
-			<li><a href="#esc1" id="enlace-esc1" nombre="1">HISTORIA</a></li>
-			<li>CONFLICTO</li>
-			<li>OPINIÓN</li>
-			<li>ACTUALIDAD</li>
-		</ul>
+		<div class="row">					
+			<div class="col-md-2 col-md-offset-6 col-lg-2 col-lg-offset-6 cinco"><li><a href="#esc1" id="enlace-esc1" nombre="1">HISTORIA</a></li></div>
+			<div class="col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 cinco"><li><a href="#esc2" id="enlace-esc2" nombre="2">CONFLICTO</a></li></div>
+			<div class="col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 cinco"><li><a href="#esc3" id="enlace-esc3" nombre="3">OPINIÓN</a></li></div>
+			<div class="col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 cinco"><li>ACTUALIDAD</li></div>
+		</div>
 	</nav>
-
-<!--.................................Sección HISTORIA.................................-->
-<div id="esc1">
-
-	<div id="historia">
-		<h2>HISTORIA</h2>
-		<div class="historia-img1"><img src="imagenes/foto1984.png"></div>
-		<div class="historia-text1"><p>Se promulga la ley que convierte cualquier acto revolucionario en una conducta terrorista, sin una investigación previa a la acusación. Se castiga severa y prematuramente, incluyendo privación de libertad y encarcelamiento durante las investigaciones.</p></div>
-		<div class="historia-img2"><img src="imagenes/foto2001.png"></div>
-		<div class="historia-text1"><p>Se comienza aplicar la ley en contra de comuneros mapuche que protestan por sus tierras ancestrales al sur de Chile, criminalizando su derecho a protesta y castigando de manera injustificada dichas acciones.</p></div>
-		<div class="historia-img3"><img src="imagenes/foto2010.png"></div>
-		<div class="historia-text1"><p>En las investigaciones del llamado “Caso Bombas” se realizó el allanamiento de la casa okupa “Saccoy Vanzetti” y la detención de 14 personas acusadas de terrorismo. Después de 8 meses de prisión, y varios meses de libertad condicional, todos los imputados fueron declarados inocentes tras un largo juicio que culminó en la Corte Suprema chilena.</p></div>
-	</div>
-
-</div>
+	
 
 
+
+<div id="color-rojo">   <!--Div exterior para el color-->
+	<div class="container"> <!--Contenedor (Hace que todo en el interior quede centrado)-->
 		
+
+		<div class="row">  <!--Fila contiene imagen y texto-->
+			<div class="col-md-5 col-md-offset-3 col-lg-5 col-lg-offset-2 seis"><img src="imagenes/dictadura.png"></div>
+			<div class="col-md-8 col-md-offset-1 col-lg-8 col-lg-offset-1 seis"><p>Se promulga la ley que convierte cualquier acto revolucionario en una conducta terrorista, sin una investigación previa a la acusación. Se castiga severa y prematuramente, incluyendo privación de libertad y encarcelamiento durante las investigaciones.</p></div>
+		</div>  <!--Fin Fila-->
+			
+		<div class="row">
+			<div class="col-md-5 col-md-offset-3 col-lg-5 col-lg-offset-2 siete"><img src="imagenes/conflictomapuche.png"></div>
+			<div class="col-md-8 col-md-offset-1 col-lg-8 col-lg-offset-1 siete"><p>Se comienza aplicar la ley en contra de comuneros mapuche que protestan por sus tierras ancestrales al sur de Chile, criminalizando su derecho a protesta y castigando de manera injustificada dichas acciones.</p></div>
+		</div>
+
+		<div class="row-fluid">
+			<div class="col-md-5 col-md-offset-3 col-lg-5 col-lg-offset-2 ocho"><img src="imagenes/casobombas.png"></div>
+			<div class="col-md-8 col-md-offset-1 col-lg-8 col-lg-offset-1 ocho"><p>En las investigaciones del llamado “Caso Bombas” se realizó el allanamiento de la casa okupa “Saccoy Vanzetti” y la detención de 14 personas acusadas de terrorismo. Después de 8 meses de prisión, y varios meses de libertad condicional, todos los imputados fueron declarados inocentes tras un largo juicio que culminó en la Corte Suprema chilena.</p></div>
+		</div>
+				
+
+	</div> <!--Fin Contenedor-->
+</div>	<!--Fin Div exterior-->
+
+	<div class="row">
+			<div class="col-md-8 col-lg-8 cuatro">Sistemas de redes se utilizan para crear diseños de página a través de una serie de filas y columnas que albergan el contenido. He aquí cómo funciona el sistema de red Bootstrap:Sistemas de redes se utiliza</div>
+			<div class="col-md-8 col-lg-8 tres">Sistemas de redes se utilizan para crear diseños de página a través de una serie de filas y columnas que albergan el contenido. He aquí cómo funciona el sistema de red Bootstrap:Sistemas de redes se utiliza</div>
+		</div>
+
+		<div class="row">
+				<div class="col-md-4 col-lg-4  cuatro"><p>Sistemas de redes se utilizan para crear diseños de página a través de una serie de filas y columnas que albergan el contenido. He aquí cómo funciona el sistema de red Bootstrap:Sistemas de redes se utiliza</p></div>
+				<div class="col-md-4 col-lg-4  cinco"><p>Sistemas de redes se utilizan para crear diseños de página a través de una serie de filas y columnas que albergan el contenido. He aquí cómo funciona el sistema de red Bootstrap:Sistemas de redes se utiliza</p></div>
+				<div class="col-md-4 col-lg-4  seis"><p>Sistemas de redes se utilizan para crear diseños de página a través de una serie de filas y columnas que albergan el contenido. He aquí cómo funciona el sistema de red Bootstrap:Sistemas de redes se utiliza</p></div>
+				<div class="col-md-4 col-lg-4  nueve"><p>Sistemas de redes se utilizan para crear diseños de página a través de una serie de filas y columnas que albergan el contenido. He aquí cómo funciona el sistema de red Bootstrap:Sistemas de redes se utiliza</p></div>
+			
+		</div>
 	</body>
+
 	</html>
