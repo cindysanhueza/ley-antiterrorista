@@ -228,9 +228,20 @@ nav{
 	color: #fff;
 	font-weight: 400!important;
 	margin-top: px;
-
 }
 
+.diez img{
+	width: 100%;
+}
+
+.diez p{
+	font-family: "Raleway";
+	font-size:20px;
+	text-align: center;
+	color: #fff;
+	font-weight: 400!important;
+	display: block;
+}
 
 .ej1{
 	height: 30px;
