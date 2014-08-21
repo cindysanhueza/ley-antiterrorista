@@ -118,11 +118,11 @@ nav{
 
 #color-rojo{
 	background-color:#B20000;
-	height:1420px;
+	height:1450px;
 }
 
 .container{
-	height: 1420px;
+	height: 1450px;
 }
 
 .historia h2{
@@ -140,13 +140,21 @@ nav{
 	margin-left: 0px!important;
 }
 
+.seis h3{
+	font-family: "Arvo";
+	font-size:22px;
+	font-weight: 700!important;
+	color:#fff;
+	margin-top: 114px;
+}
+
 .seis p{
 	
 	font-family: "Arvo";
 	font-size:20px;
 	font-weight: 400!important;
 	color:#000000;
-	margin-top: 200px;
+	margin-top: 20px;
 }
 
 .siete img{
@@ -156,8 +164,16 @@ nav{
 	margin-left: 0px!important;
 }
 
+.siete h3{
+	font-family: "Arvo";
+	font-size:22px;
+	font-weight: 700!important;
+	color:#fff;
+	margin-top: 180px;
+}
+
 .siete p{
-	margin-top: 247px;
+	margin-top: 20px;
 	font-family: "Arvo";
 	font-size:20px;
 	font-weight: 400!important;
@@ -172,8 +188,16 @@ nav{
 	margin-left: 0px!important;
 }
 
+.ocho h3{
+	font-family: "Arvo";
+	font-size:22px;
+	font-weight: 700!important;
+	color:#fff;
+	margin-top: 140px;
+}
+
 .ocho p{
-	margin-top: 200px;
+	margin-top: 20px;
 	font-family: "Arvo";
 	font-size:20px;
 	font-weight: 400!important;
