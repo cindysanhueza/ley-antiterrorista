@@ -207,18 +207,20 @@ nav{
 
 #color-negro{
 	background-color:#000000;
+	height: 1400px;
 }
 
 .conducta h2{
 	font-family: "Raleway";
 	font-weight: 300!important;
 	font-size:60px;
-	padding-top: 132px;
+	padding-top: 130px;
 	color: #fff;
 }
 
 .nueve img{
 	width: 100%;
+	margin-top: 70px;
 }
 
 .nueve p{
@@ -227,21 +229,43 @@ nav{
 	text-align: center;
 	color: #fff;
 	font-weight: 400!important;
-	margin-top: px;
+	margin-top: 23px;
+}
+
+.iconos{
+	background-color: blue;
+	height: 100%;
+	margin-top: 76px;
+}
+
+
+.diez{
+	background-color: ;
+	
 }
 
 .diez img{
 	width: 100%;
+
 }
 
-.diez p{
+.once p{
 	font-family: "Raleway";
 	font-size:20px;
 	text-align: center;
 	color: #fff;
 	font-weight: 400!important;
-	display: block;
+	background-color: green;
+	margin-top: 47px;
 }
+
+.iconos-2{
+	background-color: blue;
+	height: 100%;
+	margin-top: 60px;
+}
+
+
 
 .ej1{
 	height: 30px;
