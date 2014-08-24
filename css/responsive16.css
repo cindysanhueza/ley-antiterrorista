@@ -191,6 +191,13 @@ nav{
 	color:#000000;
 }
 
+.historia-2010 span{
+	margin-top: 20px;
+	font-family: "Arvo";
+	font-size:20px;
+	font-weight: 700!important;
+	color:#000000;
+}
 
 #color-negro{
 	background-color:#000000;
@@ -237,7 +244,7 @@ nav{
 
 .text-icon-rojo p{
 	font-family: "Raleway";
-	font-size:20px;
+	font-size:18px;
 	text-align: center;
 	color: #fff;
 	font-weight: 400!important;
@@ -303,11 +310,11 @@ nav{
 }
 
 .img2-afavor img{
-	margin-top: 130px;
+	margin-top: 132px;
 }
 
 .img2-afavor p{
-	margin-top: 135px;
+	margin-top: 126px;
 	font-family: "Arvo";
 	font-size:20px;
 	font-weight: italic !important;
@@ -316,17 +323,17 @@ nav{
 
 .opinion img{
 	width:21px;
-	margin-top:130px;
+	margin-top:126px;
 	float: right;
 }
 
 .text-img-opinion img {
 	width: 147px;
-	margin-top: 90px;
+	margin-top: 102px;
 }
 
 .text-img-opinion p {
-    margin-top: 100px;
+    margin-top: 97px;
 	font-family: "Arvo";
 	font-size:20px;
 	font-weight: italic !important;
@@ -335,10 +342,70 @@ nav{
 
 .opinion2 img{
 	width:21px;
-	margin-top:100px;
+	margin-top:96px;
 	float:right;
 }
 
+/*Opinion 2 a favor*/
+.text-opinion2 img {
+	width: 147px;
+	margin-top: 69px;
+}
+
+.text-opinion2 p {
+    margin-top: 61px;
+	font-family: "Arvo";
+	font-size:20px;
+	font-weight: italic !important;
+	color:#000000;
+}
+
+
+.comillas2 img{
+	width:21px;
+	margin-top:61px;
+	float:right;
+}
+/*Fin Opinion 2 a favor*/
+
+/*Nombre opinion*/
+
+.img2-afavor h4{
+	font-family: "Raleway";
+	font-size:20px;
+	text-align: left;
+	color: #000000;
+	font-weight: 400!important;
+	margin-top: 18px;
+}
+
+.text-opinion2 h4{
+	font-family: "Raleway";
+	font-size:20px;
+	text-align: left;
+	color: #000000;
+	font-weight: 400!important;
+	margin-top: 18px;
+}
+
+.text-img-opinion h4{
+	font-family: "Raleway";
+	font-size:20px;
+	text-align: left;
+	color: #000000;
+	font-weight: 400!important;
+	margin-top: 18px;
+}
+
+.text-opinion2 h4{
+	font-family: "Raleway";
+	font-size:20px;
+	text-align: left;
+	color: #000000;
+	font-weight: 400!important;
+	margin-top: 18px;
+}
+/*Fin nombre opinon*/
 .ej1{
 	height: 30px;
 	background-color: red;
