@@ -24,6 +24,22 @@
 }
 /*Fin Titulo LEY*/
 
+/*Div titulo*/
+.div-titulo-arriba{
+	height:2px;
+	width:45.4%;
+	background-color: #fff;
+	float: center;
+}
+
+.div-titulo-abajo{
+	height:3px;
+	width:50%;
+	background-color: #fff;
+	float: center;
+}
+/*Fin div titulo*/
+
 /*Titulo ANTITERRORISTA*/
 .titulo-antiterrorista {
 	z-index: 3;
