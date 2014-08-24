@@ -3,15 +3,9 @@
 	background: #000 url("../imagenes/fotoinicio.jpg");
 	background-position: top right;
 	background-repeat: no-repeat ;
-	
 }
 
 /*Titulo LEY*/
-.titulo-ley{
-
-	position: relative;
-	z-index: 2;
-}
 
 .titulo-ley h2{
 	font-family: "Raleway";
@@ -35,17 +29,13 @@
 .div-titulo-abajo{
 	height:3px;
 	width:50%;
+	margin-top:-14px;
 	background-color: #fff;
 	float: center;
 }
 /*Fin div titulo*/
 
 /*Titulo ANTITERRORISTA*/
-.titulo-antiterrorista {
-	z-index: 3;
-	position: relative;
-}
-
 .titulo-antiterrorista h1{
 	font-family: "Raleway";
 	font-size:80px;
@@ -59,8 +49,6 @@
 
 /*Inicio parrafo*/
 .definicion{
-	z-index: 4;
-	position: relative;
 	padding-left: 0px!important;
 	padding-right: 0px!important;
 	margin-top:120px;
@@ -87,7 +75,7 @@ nav{
 	background-color: black;
 	height: 100px;
 	padding-top: 20px;
-	position: relative;
+	
 }
 
 .links-nav li{
@@ -121,6 +109,7 @@ nav{
 #color-rojo{
 	background-color:#B20000;
 	height:1450px;
+	
 }
 
 .container{
