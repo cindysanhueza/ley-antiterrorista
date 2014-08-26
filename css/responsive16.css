@@ -42,8 +42,9 @@
 	font-weight: 300!important;
 	float: center!important;
 	color: #fff;
-	text-align: center;
+	text-align: center!important;
 	margin-top: 0px;
+
 }
 /*Fin Titulo ANTITERRORISTA*/
 
@@ -411,6 +412,44 @@ nav{
 	margin-top: 18px;
 }
 /*Fin nombre opinon*/
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+.titulo-antiterrorista h1{
+	font-size: 60px;
+	text-align: center;
+	background-color: blue;
+ }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+.titulo-antiterrorista h1{font-size: 23px; }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+.titulo-antiterrorista h1{font-size:23px; }
+}
+
+
+
+
+
+
+
+/*COLUMNAS EJEMPLO*/
 .ej1{
 	height: 30px;
 	background-color: red;
@@ -419,4 +458,5 @@ nav{
 .ej2{
 	height: 30px;
 	background-color: green;
+
 }
