@@ -94,7 +94,13 @@ nav{
 .links-nav a{
 	text-decoration: none;	
 	display: block;
+	color:#fff!important;
+}
 
+.links-nav a:hover{
+color:#B20000!important;
+font-weight: 500;
+font-family: "Raleway";
 }
 
 .links-nav li:focus {
@@ -105,6 +111,7 @@ nav{
 .links-nav li:hover {
 	padding-right: 0px;
 	border-bottom: #D80000!important;
+	
 }
 
 #color-rojo{
@@ -316,41 +323,31 @@ nav{
 }
 
 .img2-afavor img{
-	margin-top: 132px;
+	margin-top: 69px;
 }
 
 .img2-afavor p{
-	margin-top: 126px;
+	margin-top: 69px;
 	font-family: "Arvo";
 	font-size:20px;
 	font-weight: italic !important;
 	color:#000000;
 }
 
-.opinion img{
-	width:21px;
-	margin-top:126px;
-	float: right;
-}
 
 .text-img-opinion img {
 	width: 147px;
-	margin-top: 102px;
+	margin-top: 69px;
 }
 
 .text-img-opinion p {
-    margin-top: 97px;
+    margin-top: 69px;
 	font-family: "Arvo";
 	font-size:20px;
 	font-weight: italic !important;
 	color:#000000;
 }
 
-.opinion2 img{
-	width:21px;
-	margin-top:96px;
-	float:right;
-}
 
 /*Opinion 2 a favor*/
 .text-opinion2 img {
@@ -368,7 +365,7 @@ nav{
 
 
 .comillas2 img{
-	width:21px;
+	width:30px;
 	margin-top:61px;
 	float:right;
 }
@@ -413,18 +410,41 @@ nav{
 }
 /*Fin nombre opinon*/
 
+/*Seccion opinion*/
 
-/* Large desktops and laptops */
+#opinion{
+	background-color: #000000;
+}
+
+.seccion-opinion h2{
+	font-family: "Raleway";
+	font-weight: 300!important;
+	font-size:60px;
+	padding-top: 10px;
+	color: #fff!important;
+	position: absolute;
+}
+
+.texto-seccion-opinion{
+	font-family: "Raleway";
+	font-size:18px;
+	text-align: center;
+	color: #fff;
+	font-weight: 400!important;
+	margin-top: 47px;
+}
+
+/* Large desktops and laptops LG*/
 @media (min-width: 1200px) {
 
 }
 
-/* Portrait tablets and medium desktops */
+/* Portrait tablets and medium desktops MD*/
 @media (min-width: 992px) and (max-width: 1199px) {
 
 }
 
-/* Portrait tablets and small desktops */
+/* Portrait tablets and small desktops SM*/
 @media (min-width: 768px) and (max-width: 991px) {
 .titulo-antiterrorista h1{
 	font-size: 60px;
@@ -433,16 +453,19 @@ nav{
  }
 }
 
-/* Landscape phones and portrait tablets */
+/* Landscape phones and portrait tablets XS*/
 @media (max-width: 767px) {
-.titulo-antiterrorista h1{font-size: 23px; }
+.titulo-antiterrorista h1{font-size: 50px; font text-align: center; background-color: orange;}
 }
 
-/* Landscape phones and smaller */
+/* Landscape phones and smaller XS */
 @media (max-width: 480px) {
-.titulo-antiterrorista h1{font-size:23px; }
+.titulo-antiterrorista h1{font-size:50px; text-align: center; background-color: green;}
 }
-
+/*XS*/
+@media (max-width: 320px) {
+.titulo-antiterrorista h1{font-size:23px;text-align: center; background-color: red; }
+}
 
 
 
