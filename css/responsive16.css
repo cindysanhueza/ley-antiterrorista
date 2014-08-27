@@ -2,7 +2,9 @@
 #imagen-primera{
 	background: #000 url("../imagenes/fotoinicio.jpg");
 	background-position: top right;
-	background-repeat: no-repeat ;
+	background-repeat: no-repeat;
+	max-width: 100%;
+
 }
 
 /*Titulo LEY*/
@@ -451,11 +453,14 @@ font-family: "Raleway";
 	text-align: center;
 	background-color: blue;
  }
+.titulo-ley h2{font-size: 35px;}
+
 }
 
 /* Landscape phones and portrait tablets XS*/
 @media (max-width: 767px) {
 .titulo-antiterrorista h1{font-size: 50px; font text-align: center; background-color: orange;}
+
 }
 
 /* Landscape phones and smaller XS */
