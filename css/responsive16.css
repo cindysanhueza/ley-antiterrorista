@@ -24,7 +24,7 @@
 .div-titulo-arriba{
 	height:2px;
 	width:45.4%;
-	background-color: #fff;
+	background-image: url("http://www.wikinoticia.com/images/monkeyzen/monkeyzen.com.wp-content.uploads.2009.09.ruido-blanco.jpg");
 	float: center;
 }
 
@@ -32,7 +32,7 @@
 	height:3px;
 	width:50%;
 	margin-top:-14px;
-	background-color: #fff;
+	background-image: url("http://www.wikinoticia.com/images/monkeyzen/monkeyzen.com.wp-content.uploads.2009.09.ruido-blanco.jpg");
 	float: center;
 }
 /*Fin div titulo*/
@@ -454,6 +454,12 @@ font-family: "Raleway";
 	background-color: blue;
  }
 .titulo-ley h2{font-size: 35px;}
+
+#imagen-primera{ 
+	width: 100%; 
+	height: 409px; 
+	background-image: url(../imagenes/tablet-fotoinicio) no-repeat fixed center center; 
+	background-size:cover; }
 
 }
 
