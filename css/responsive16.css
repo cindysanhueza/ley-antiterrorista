@@ -132,12 +132,18 @@ font-family: "Raleway";
 	height: 1450px;
 }
 
+.div-historia-izquierda{
+	background-color:#000000;
+	height: 2px;
+	margin-left: 0px!important;
+	margin-top: 185px;
+}
 
 .historia h2{
 	font-family: "Raleway";
 	font-weight: 300!important;
 	font-size:60px;
-	padding-top: 150px;
+	margin-top:-32px;
 	color: #000000;
 	text-align: center!important;
 }
@@ -477,6 +483,22 @@ font-family: "Raleway";
 
 nav{background-color: black; height: 60px;	padding-top: 20px;}
 .links-nav li{font-family: "Raleway"; font-size:16px; height: 400; float:left; margin-top:0px;}
+
+#color-rojo{ height:1115px;}
+.div-historia-izquierda{margin-top: 150px;}
+.historia h2{font-family: "Raleway"; font-size:50px; margin-top:-28px;}
+.historia-1984 img{	margin-top: 50px; width: 229px; height: 229px; margin-left: 0px!important;}
+.historia-1984 h3{	font-family: "Arvo"; font-size:18px; font-weight: 700!important; margin-top: 80px;}
+.historia-1984 p{font-family: "Arvo"; font-size:16px; font-weight: 400!important; margin-top: 4px;}
+
+.historia-2001 img{	width: 229px; 	height: 229px; 	margin-top: 54px;	margin-left: 0px!important;}
+.historia-2001 h3{	font-family: "Arvo"; font-size:18px; font-weight: 700!important; margin-top: 114px;}
+.historia-2001 p{ margin-top: 4px;	font-family: "Arvo"; font-size:16px; font-weight: 400!important;}
+
+.historia-2010 img{width: 229px; height: 229px;	margin-top: 55px;	margin-left: 0px!important;}
+.historia-2010 h3{	font-family: "Arvo"; font-size:18px; font-weight: 700!important; margin-top: 84px;}
+.historia-2010 p{margin-top: 4px; font-family: "Arvo";	font-size:16px;	font-weight: 400!important;}
+
 
 }
 
