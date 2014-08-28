@@ -4,8 +4,9 @@
 	background-position: top right;
 	background-repeat: no-repeat;
 	max-width: 100%;
-
 }
+
+
 
 /*Titulo LEY*/
 
@@ -76,8 +77,9 @@
 
 nav{
 	background-color: black;
-	height: 100px;
-	padding-top: 20px;
+	
+	padding-top: 13px;
+	padding-bottom: 30px;
 	
 }
 
@@ -139,14 +141,27 @@ font-family: "Raleway";
 	margin-top: 185px;
 }
 
-.historia h2{
+.historia{
 	font-family: "Raleway";
 	font-weight: 300!important;
 	font-size:60px;
-	margin-top:-32px;
+	/*margin-top:-117px;*/
 	color: #000000;
 	text-align: center!important;
+	margin-top: 86px;
+	
+
+	background: url("../imagenes/linearuido-blanco.jpg") repeat-x;
+	background-height:-180px;
 }
+
+.historia span{
+	background-color: red;
+	padding-right: 87px;
+	padding-left: 87px;
+
+}
+
  
 .historia-1984 img{
 	margin-top: 50px;
@@ -217,6 +232,7 @@ font-family: "Raleway";
 	font-size:20px;
 	font-weight: 400!important;
 	color:#000000;
+	padding-bottom: 56px;
 }
 
 .historia-2010 span{
@@ -229,14 +245,14 @@ font-family: "Raleway";
 
 #color-negro{
 	background-color:#000000;
-	height: 1400px;
+	
 }
 
 .conducta h2{
 	font-family: "Raleway";
 	font-weight: 300!important;
 	font-size:60px;
-	padding-top: 130px;
+	padding-top: 133px;
 	color: #fff;
 	text-align: center!important;
 }
@@ -278,11 +294,12 @@ font-family: "Raleway";
 	color: #fff;
 	font-weight: 400!important;
 	margin-top: 47px;
+	padding-bottom: 86px;
 }
 
 .iconos-2{
 	height: 100%;
-	margin-top: 60px;
+	
 }
 
 /*Linea negra sobre fondo de mitades*/
@@ -325,18 +342,20 @@ font-family: "Raleway";
 	background-color: #71897D;
 	float: left;
 	width: 50%;
-	height: 1745px;
+	
+	padding-top: 75px;
 }
 
 #mitad-rojo{
 	background-color: #B20000;
 	float: left;
 	width:50%; 
-	height: 1745px;
+	
+	padding-top: 75px;
 }
 
 .img-afavor img{
-	margin-top: 75px;
+	width: 300px;
 	height: 300px;
 }
 
@@ -381,12 +400,20 @@ font-family: "Raleway";
 	color:#000000;
 }
 
+.text-opiniones2 p {
+    margin-top: 61px;
+	font-family: "Arvo";
+	font-size:20px;
+	font-weight: italic !important;
+	color:#000000;
+}
 
 .comillas2 img{
 	width:30px;
 	margin-top:61px;
 	float:right;
 }
+
 /*Fin Opinion 2 a favor*/
 
 /*Nombre opinion*/
@@ -425,6 +452,17 @@ font-family: "Raleway";
 	color: #000000;
 	font-weight: 400!important;
 	margin-top: 18px;
+	padding-bottom: 50px;
+}
+
+.text-opiniones2 h4{
+	font-family: "Raleway";
+	font-size:20px;
+	text-align: left;
+	color: #000000;
+	font-weight: 400!important;
+	margin-top: 18px;
+	padding-bottom: 250px;
 }
 /*Fin nombre opinon*/
 
@@ -460,15 +498,13 @@ font-family: "Raleway";
 
 /* Portrait tablets and medium desktops MD*/
 @media (min-width: 992px) and (max-width: 1199px) {
-
+.text-opiniones2 h4{padding-bottom: 307px;}
+.div-titulo-arriba{width:60%;	}
 }
 
 /* Portrait tablets and small desktops SM*/
 @media (min-width: 768px) and (max-width: 991px) {
-.titulo-antiterrorista h1{
-	font-size: 50px;
-	margin-top: -7px;
- }
+.titulo-antiterrorista h1{	font-size: 50px; margin-top: -7px; }
 .titulo-ley h2{font-size: 35px!important;	margin-top: 78px; }
 
 .div-titulo-arriba{	height:2px;	width:53.77%; margin-top: -9px; float: center; margin-left: 23.21%;}
@@ -499,6 +535,9 @@ nav{background-color: black; height: 60px;	padding-top: 20px;}
 .historia-2010 h3{	font-family: "Arvo"; font-size:18px; font-weight: 700!important; margin-top: 84px;}
 .historia-2010 p{margin-top: 4px; font-family: "Arvo";	font-size:16px;	font-weight: 400!important;}
 
+.conducta h2{	font-family: "Raleway";	font-weight: 300!important;	font-size:50px;	padding-top: 130px;}
+
+.text-icon-rojo p{font-family: "Raleway"; font-size:16px;	margin-top: 47px;	padding-bottom: 86px;}
 
 }
 
@@ -510,11 +549,11 @@ nav{background-color: black; height: 60px;	padding-top: 20px;}
 
 /* Landscape phones and smaller XS */
 @media (max-width: 480px) {
-.titulo-antiterrorista h1{font-size:50px; text-align: center; background-color: green;}
+.titulo-antiterrorista h1{font-size:35px; text-align: center; background-color: green;}
 }
 /*XS*/
 @media (max-width: 320px) {
-.titulo-antiterrorista h1{font-size:23px;text-align: center; background-color: red; }
+.titulo-antiterrorista h1{font-size:30px;text-align: center; background-color: red; }
 }
 
 
