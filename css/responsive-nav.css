@@ -3,13 +3,13 @@
 .nav-collapse ul {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100%!important;
   display: block;
   list-style: none;
 }
 
 .nav-collapse li {
-  width: 100%;
+  width: 100%!important;
   display: block;
 }
 
