@@ -10,6 +10,12 @@
 	 	<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<link href="css/sticky-navigation.css" rel="stylesheet" type="text/css" />
+		
+		<!-- menú advanced -->
+		<link rel="stylesheet" href="css/responsive-nav.css">
+    	<link rel="stylesheet" href="css/stylesmenu.css">
+    	<script src="js/responsive-nav.js"></script>
+    	<!-- fin menú -->
 
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
@@ -51,11 +57,26 @@
 
 	</head>
 
+
 	<body>
+
+		<header>
+		    <nav class="nav-collapse">
+		        <ul>
+		            <li><a href="#historia" >HISTORIA</a></li>
+		            <li><a href="#conflicto">CONFLICTO</a></li>
+		            <li><a href="#esc2">OPINIÓN</a></li>
+		            <li><a href="#esc3">ACTUALIDAD</a></li>
+		          </ul>
+		    </nav>
+		</header>
+
+
+
 		<div id="imagen-primera"><!--Imagen inicial-->	
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-16 col-sm-16 col-md-16 col-lg-16 titulo-ley"><h2>LEY</h2></div>
+					<div class="col-xs-16 col-sm-16 col-md-16 col-lg-16 titulo-ley .visible-xs-hidden .visible-sm-hidden .visible-md-visible"><h2>LEY</h2></div>
 					<div class="col-sm-13 col-sm-offset-4 col-md-11 col-md-offset-3 col-lg-11 col-lg-offset-4 div-titulo-arriba"></div>
 					<div class="col-xs-16  col-sm-16  col-md-16 col-lg-16  titulo-antiterrorista"><h1>ANTITERRORISTA</h1></div>
 					<div class="col-sm-14 col-sm-offset-2 col-md-12 col-md-offset-3 col-lg-12 col-lg-offset-4 div-titulo-abajo"></div>
@@ -64,23 +85,41 @@
 			</div>
 		</div><!--Fin Imagen inicial-->
 		
+		
+				<div id="sticky_navigation_wrapper">
+					<div id="sticky_navigation">
+						<div class="row">					
+							<div class="col-sm-16  visible-lg visible-md-min-width: 992px hidden-sm-768px hidden-xs links-nav ">
+
+								<ul>
+									<li><a href="#historia" >HISTORIA</a></li>
+									<li><a href="#conflicto">CONFLICTO</a></li>
+									<li><a href="#esc2">OPINIÓN</a></li>
+									<li><a href="#esc3">ACTUALIDAD</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 	
-		<div id="sticky_navigation_wrapper">
-		<div id="sticky_navigation">
-			<nav>
-			<div class="row">					
-				<div class="col-sm-2 col-sm-offset-4 col-md-2 col-md-offset-4 col-lg-2 col-lg-offset-6 links-nav"><li><a href="#historia" >HISTORIA</a></li></div>
-				<div class="col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 links-nav"><li><a href="#conflicto">CONFLICTO</a></li></div>
-				<div class="col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 links-nav"><li><a href="#esc3" id="enlace-esc3" nombre="3">OPINIÓN</a></li></div>
-				<div class="col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 links-nav"><li>ACTUALIDAD</li></div>
+	
+<!--  
+			<div id="sticky_navigation_wrapper">
+			<div id="sticky_navigation">
+
+				<nav>
+				<div class="row">					
+					<div class="col-sm-2 col-sm-offset-4 col-md-2 col-md-offset-4 col-lg-2 col-lg-offset-6 links-nav"><li><a href="#historia" >HISTORIA</a></li></div>
+					<div class="col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 links-nav"><li><a href="#conflicto">CONFLICTO</a></li></div>
+					<div class="col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 links-nav"><li><a href="#esc3" id="enlace-esc3" nombre="3">OPINIÓN</a></li></div>
+					<div class="col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 links-nav"><li><a href="#esc3"><li>ACTUALIDAD</a></li></div>
+				</div>
+			</nav>
 			</div>
-		</nav>
 		</div>
-	</div>
 
 
-	
-
+-->
 
 		<a name="historia"><div id="color-rojo"></a>   <!--Div exterior para el color-->
 			<!--<div class="col-sm-5  col-md-6 col-lg-6  div-historia-izquierda"></div>-->
@@ -302,6 +341,31 @@
 		</div>
 		</div>
 		-->
+
+
+
+		<!-- script menu responsive -->
+
+		 <script>
+      var navigation = responsiveNav(".nav-collapse", {
+        animate: true,                    // Boolean: Use CSS3 transitions, true or false
+        transition: 284,                  // Integer: Speed of the transition, in milliseconds
+        label: "Menu",                    // String: Label for the navigation toggle
+        insert: "after",                  // String: Insert the toggle before or after the navigation
+        customToggle: "",                 // Selector: Specify the ID of a custom toggle
+        closeOnNavClick: false,           // Boolean: Close the navigation when one of the links are clicked
+        openPos: "relative",              // String: Position of the opened nav, relative or static
+        navClass: "nav-collapse",         // String: Default CSS class. If changed, you need to edit the CSS too!
+        navActiveClass: "js-nav-active",  // String: Class that is added to <html> element when nav is active
+        jsClass: "js",                    // String: 'JS enabled' class which is added to <html> element
+        init: function(){},               // Function: Init callback
+        open: function(){},               // Function: Open callback
+        close: function(){}               // Function: Close callback
+      });
+    </script>
+
+    <!-- fin script menú responsive -->
+
 	</body>
 
 	</html>
