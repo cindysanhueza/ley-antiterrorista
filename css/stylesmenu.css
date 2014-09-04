@@ -64,6 +64,11 @@ float: right;
   left: 0;
 }
 
+ul{
+  display: block;
+  width:0 auto !important;
+}
+
 .nav-collapse,
 .nav-collapse * {
   -moz-box-sizing: border-box;
