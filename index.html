@@ -9,6 +9,46 @@
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500' rel='stylesheet' type='text/css'>
 	 	<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link href="css/sticky-navigation.css" rel="stylesheet" type="text/css" />
+
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+
+		<script>
+		$(function() {
+
+			// grab the initial top offset of the navigation 
+			var sticky_navigation_offset_top = $('#sticky_navigation').offset().top;
+			
+			// our function that decides weather the navigation bar should have "fixed" css position or not.
+			var sticky_navigation = function(){
+				var scroll_top = $(window).scrollTop(); // our current vertical position from the top
+				
+				// if we've scrolled more than the navigation, change its position to fixed to stick to top, otherwise change it back to relative
+				if (scroll_top > sticky_navigation_offset_top) { 
+					$('#sticky_navigation').css({ 'position': 'fixed', 'top':0, 'left':0 });
+				} else {
+					$('#sticky_navigation').css({ 'position': 'relative' }); 
+				}   
+			};
+			
+			// run our function on load
+			sticky_navigation();
+			
+			// and run it again every time you scroll
+			$(window).scroll(function() {
+				 sticky_navigation();
+			});
+			
+			// NOT required:
+			// for this demo disable all links that point to "#"
+			$('a[href="#"]').click(function(event){ 
+				event.preventDefault(); 
+			});
+			
+		});
+		</script>
+
 	</head>
 
 	<body>
@@ -25,25 +65,30 @@
 		</div><!--Fin Imagen inicial-->
 		
 	
-		<nav>
+		<div id="sticky_navigation_wrapper">
+		<div id="sticky_navigation">
+			<nav>
 			<div class="row">					
-				<div class="col-sm-2 col-sm-offset-4 col-md-2 col-md-offset-4 col-lg-2 col-lg-offset-6 links-nav"><li><a href="#esc1" id="enlace-esc1" nombre="1">HISTORIA</a></li></div>
+				<div class="col-sm-2 col-sm-offset-4 col-md-2 col-md-offset-4 col-lg-2 col-lg-offset-6 links-nav"><li><a href="#historia" >HISTORIA</a></li></div>
 				<div class="col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 links-nav"><li><a href="#conflicto">CONFLICTO</a></li></div>
 				<div class="col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 links-nav"><li><a href="#esc3" id="enlace-esc3" nombre="3">OPINIÓN</a></li></div>
 				<div class="col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 links-nav"><li>ACTUALIDAD</li></div>
 			</div>
 		</nav>
+		</div>
+	</div>
+
+
 	
 
 
-
-		<div id="color-rojo">   <!--Div exterior para el color-->
+		<a name="historia"><div id="color-rojo"></a>   <!--Div exterior para el color-->
 			<!--<div class="col-sm-5  col-md-6 col-lg-6  div-historia-izquierda"></div>-->
 			<div class="container"> <!--Contenedor (Hace que todo en el interior quede centrado)-->
 				<!-- <div class="row">
 					<div class="col-xs-16 col-sm-16 col-md-16 col-lg-16 historia"><h2>HISTORIA</h2></div>
 				</div> -->
-<h2 class="historia"><span>HISTORIA </span></h2>
+			<h2 class="historia"><span>HISTORIA </span></h2>
 				<div class="row">  <!--Fila contiene imagen y texto-->
 					<div class="col-sm-5 col-md-5 col-md-offset-2 col-lg-5 col-lg-offset-2 historia-1984"><img src="imagenes/dictadura.png"></div>
 					
