@@ -54,6 +54,7 @@ section {
 header{position: fixed;
 z-index: 5;
 float: right;
+
 }
 
 
@@ -205,7 +206,22 @@ ul{
   content:"x";
 }
 
+@media (min-width: 1200px) {
+  .nav-collapse ul li{display: none; z-index: 1;}
+}
 
+@media (min-width: 992px) and (max-width: 1199px) {
+.nav-collapse ul li{display: none; z-index: 1;}
+}
 
+@media (min-width: 768px) and (max-width: 991px) {
+.nav-collapse ul li{display: none; z-index: 1;}
+}
 
+@media (min-width: 640px) and (max-width: 767px) {
+.nav-collapse ul li{display: none; z-index: 1;}
+  }
 
+@media (max-width: 639px) {
+.nav-collapse ul li{display: block;}
+  }

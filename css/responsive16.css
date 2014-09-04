@@ -493,17 +493,20 @@ font-family: "Raleway";
 
 /* Large desktops and laptops LG*/
 @media (min-width: 1200px) {
+	.nav-collapse ul li{display: hidden; z-index: 1;}
 
 }
 
 /* Portrait tablets and medium desktops MD*/
 @media (min-width: 992px) and (max-width: 1199px) {
+
 .text-opiniones2 h4{padding-bottom: 307px;}
 .div-titulo-arriba{width:60%;	}
 }
 
 /* Portrait tablets and small desktops SM*/
 @media (min-width: 768px) and (max-width: 991px) {
+
 .titulo-antiterrorista h1{	font-size: 50px; margin-top: -7px; }
 .titulo-ley h2{font-size: 35px!important;	margin-top: 78px; }
 
@@ -549,6 +552,7 @@ nav{background-color: black; height: 60px;	padding-top: 20px;}
 
 /* Landscape phones and smaller XS */
 @media (max-width: 480px) {
+
 .titulo-antiterrorista h1{font-size:35px; text-align: center; background-color: green;}
 }
 /*XS*/
