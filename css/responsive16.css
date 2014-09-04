@@ -470,25 +470,27 @@ font-family: "Raleway";
 
 #opinion{
 	background-color: #000000;
+	height: 1420px;
 }
 
-.seccion-opinion h2{
+.seccion-opinion h2 a{
 	font-family: "Raleway";
 	font-weight: 300!important;
 	font-size:60px;
-	padding-top: 10px;
-	color: #fff!important;
+	padding-top: 86px;
+	color: black!important;
 	position: absolute;
 	text-align: center!important;
+
 }
 
-.texto-seccion-opinion{
+.seccion-opinion p{
 	font-family: "Raleway";
 	font-size:18px;
 	text-align: center;
-	color: #fff;
+	color: #000000;
 	font-weight: 400!important;
-	margin-top: 47px;
+	margin-top: 70px;
 }
 
 /* Large desktops and laptops LG*/
