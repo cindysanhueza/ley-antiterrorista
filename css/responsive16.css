@@ -55,6 +55,7 @@
 	float: center;
 	font-weight: 400;
 	color:#fff;
+	padding-bottom: 10px;
 }
 
  .definicion p span{
@@ -148,12 +149,11 @@
 	margin-top: 86px;
 	
 
-	background: url("../imagenes/linearuido-blanco.jpg") repeat-x;
-	background-height:-180px;
+	/*background: url("../imagenes/linearuido-blanco.jpg") repeat-x;
+	background-height:-180px;*/
 }
 
 .historia span{
-	background-color: red;
 	padding-right: 87px;
 	padding-left: 87px;
 
@@ -670,7 +670,7 @@ float: left;
 
 
 	  font-size: 12px;
-  padding: 0em;
+      padding: 0em;
 	  display: block;
 	}
 	 
@@ -681,8 +681,8 @@ float: left;
 	  background-color: rgba(0, 0, 0, 0.6);
 	}
 /*término flecha*/
-
-
+.imagen-primera{ background-color:black; }
+.fondo-para-movil{background-color: black;}
 
 
 
@@ -690,7 +690,7 @@ float: left;
 @media screen and (min-width: 1280px) {
 	.nav-collapse ul li{display: hidden; z-index: 1;}
 	.imagen-primera{  height: 639px!important; background: url("../imagenes/fotoinicio1200px.jpg") no-repeat center center; 
-	background-position: top; background-color: black;}
+	background-position: top; }
 }
 
 
@@ -781,9 +781,29 @@ nav{background-color: black; height: 60px;	padding-top: 20px;}
 @media  screen and (max-width: 320px) {
 	.imagen-primera{ height: 171px; background: url("../imagenes/fotoinicio320px.jpg") no-repeat center center; 
 	 background-position: top;}
-	.titulo-ley h2{font-size: 15px!important;	margin-top: 17px; padding-bottom: 0px!important;}
+	.titulo-ley h2{font-size: 15px!important;	margin-top: 95px; padding-bottom: 0px!important;}
 	.titulo-antiterrorista h1{font-size:30px; text-align: center; }
+	
+	.fondo-para-movil{
+		padding-top: 0px;
+		background-color: #000000;
+	}
+	
+	.definicion p{	
+		font-family: "Arvo";	
+		font-size:15px!important; 
+		margin-top: 20px;
+	}
+	
+	.definicion p span{	
+		font-family: "Arvo";	
+		font-size:17px!important;	
+		font-weight: 400;
+	}
 
+	.links-nav{
+		visibility: hidden;
+	}
 
 }
 
