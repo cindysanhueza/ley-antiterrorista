@@ -153,7 +153,7 @@ ul{
   NAV TOGGLE STYLES
 --------------------------------------------- */
 
-@font-face {
+/*@font-face {
   font-family: "Raleway";
   src:url("../imagenes/responsivenav.eot");
   src:url("../imagenes/responsivenav.eot?#iefix") format("embedded-opentype"),
@@ -162,7 +162,7 @@ ul{
     url("../imagenes/responsivenav.svg#responsivenav") format("svg");
   font-weight: normal;
   font-style: normal;
-}
+}*/
 
 .nav-toggle {
   position: fixed;
@@ -191,7 +191,7 @@ ul{
   font-size: 28px;
   text-transform: none;
   position: absolute;
-  content: "≡";
+  content:url(../imagenes/list23.svg);
   text-indent: 0;
   text-align: center;
   line-height: 55px;
@@ -203,7 +203,8 @@ ul{
 
 .nav-toggle.active::before {
   font-size: 24px;
-  content:"x";
+ /* content:"x";*/
+ content:url(../imagenes/cancel4.svg);
 }
 
 @media (min-width: 1200px) {

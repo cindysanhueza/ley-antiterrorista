@@ -1,13 +1,3 @@
-
-#imagen-primera{
-	background: #000 url("../imagenes/fotoinicio.jpg");
-	background-position: top right;
-	background-repeat: no-repeat;
-	max-width: 100%;
-}
-
-
-
 /*Titulo LEY*/
 
 .titulo-ley h2{
@@ -342,6 +332,7 @@ font-family: "Raleway";
 	background-color: #71897D;
 	float: left;
 	width: 50%;
+	height: 1900px;
 	
 	padding-top: 75px;
 }
@@ -350,7 +341,7 @@ font-family: "Raleway";
 	background-color: #B20000;
 	float: left;
 	width:50%; 
-	
+	height: 1900px;
 	padding-top: 75px;
 }
 
@@ -468,46 +459,72 @@ font-family: "Raleway";
 
 /*Seccion opinion*/
 
-#opinion{
-	background-color: #000000;
-	height: 1420px;
+#area-negra{
+	background-color: #000000!important;
 }
 
-.seccion-opinion h2 a{
+
+.titulo-opinion h2 {
 	font-family: "Raleway";
 	font-weight: 300!important;
 	font-size:60px;
-	padding-top: 86px;
-	color: black!important;
-	position: absolute;
+	padding-top: 120px;
 	text-align: center!important;
-
-}
-
-.seccion-opinion p{
-	font-family: "Raleway";
-	font-size:18px;
+	color: #fff;
 	text-align: center;
-	color: #000000;
-	font-weight: 400!important;
-	margin-top: 70px;
+
 }
+
+.texto-seccion-opinion p{
+	font-family: "Arvo";
+	font-size:20px;
+	text-align: center;
+	color: #fff;
+	font-weight: 400!important;
+	margin-top: 73px;
+}
+
+.texto-graficos h3{
+	font-family: "Arvo";
+	font-size:22px;
+	text-align: left!important;
+	color: #fff;
+	font-weight: 700!important;
+	margin-top: 49px;
+}
+
+.texto-graficos p{
+	font-family: "Arvo";
+	font-size:20px;
+	text-align: left!important;
+	color: #fff;
+	font-weight: 400!important;
+	margin-top: 73px;
+}
+
+.img-responsive{
+	padding-top: 45px;
+}
+
+
 
 /* Large desktops and laptops LG*/
-@media (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
 	.nav-collapse ul li{display: hidden; z-index: 1;}
-
+	.imagen-primera{ width:100%;  height: 660px!important; background: url('../imagenes/fotoinicio.jpg') no-repeat center center; 
+	background-size:cover; }
 }
 
 /* Portrait tablets and medium desktops MD*/
-@media (min-width: 992px) and (max-width: 1199px) {
-
+@media screen (min-width: 992px) and (max-width: 1199px) {
+	.imagen-primera{ height:528px!important; background: url('../imagenes/fotoinicio992px.jpg') no-repeat  center center; 
+	background-position: top; }
 .text-opiniones2 h4{padding-bottom: 307px;}
 .div-titulo-arriba{width:60%;	}
 }
 
 /* Portrait tablets and small desktops SM*/
-@media (min-width: 768px) and (max-width: 991px) {
+@media screen (min-width: 768px) and (max-width: 991px) {
 
 .titulo-antiterrorista h1{	font-size: 50px; margin-top: -7px; }
 .titulo-ley h2{font-size: 35px!important;	margin-top: 78px; }
@@ -515,8 +532,8 @@ font-family: "Raleway";
 .div-titulo-arriba{	height:2px;	width:53.77%; margin-top: -9px; float: center; margin-left: 23.21%;}
 .div-titulo-abajo{	height:3px;	width:59%;	margin-top:-11px; float: center; margin-left: 20.61%;}
 
-#imagen-primera{ width: 100%; height: 100%!important; background-image: url(../imagenes/tablet-fotoinicio) no-repeat fixed center center; 
-	background-size:cover; }
+.imagen-primera{ width: 100%; height: 409px!important; background-image: url(../imagenes/tablet-fotoinicio) no-repeat fixed center center;
+background-position: top; }
 
 .definicion{margin-top: 79px;}
 .definicion p{	font-family: "Arvo";	font-size:18px!important; margin-top: }
@@ -548,17 +565,22 @@ nav{background-color: black; height: 60px;	padding-top: 20px;}
 
 /* Landscape phones and portrait tablets XS*/
 @media (max-width: 767px) {
+	.imagen-primera{ width: 100%; height: 100%!important; background: url(../imagenes/fotoinicio600px.jpg) no-repeat fixed center center; 
+	background-position: top; }
 .titulo-antiterrorista h1{font-size: 50px; font text-align: center; background-color: orange;}
 
 }
 
 /* Landscape phones and smaller XS */
-@media (max-width: 480px) {
-
+@media  (min-width: 321px) and (max-width: 480px) {
+	.imagen-primera{ height:256px; background: url(../imagenes/fotoinicio480px.jpg) no-repeat fixed center center; 
+	/*background-size:cover; */background-position: top;}
 .titulo-antiterrorista h1{font-size:35px; text-align: center; background-color: green;}
 }
 /*XS*/
-@media (max-width: 320px) {
+@media  screen and (max-width: 320px) {
+	.imagen-primera{ height: 171px; background: url(../imagenes/fotoinicio320px.jpg) no-repeat center center; 
+	/*background-size:cover;*/ background-position: top;}
 .titulo-antiterrorista h1{font-size:30px;text-align: center; background-color: red; }
 
 
