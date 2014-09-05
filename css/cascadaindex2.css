@@ -521,7 +521,7 @@ background-position: top; }
 nav{background-color: black; height: 60px;	padding-top: 20px;}
 .links-nav li{font-family: "Raleway"; font-size:16px; height: 400; float:left; margin-top:0px;}
 .hitos img{	margin-top: 50px; width: 229px; height: 229px; margin-left: 0px!important;}
-.hitos-text p{	font-family: "Arvo"; font-size:18px; font-weight: 700!important; margin-top: 80px;}
+.hitos-text p{	font-family: "Arvo"; font-size:18px; font-weight: 400!important; margin-top: 80px;}
 .iconos p{font-family: "Raleway"; font-size:16px;	margin-top: 47px;	padding-bottom: 86px;}
 	.go-top{visibility: visible;
 	}
@@ -561,6 +561,19 @@ h1{font-size:35px; text-align: center; }
 	.links-nav{
 		visibility: hidden;
 	}
+
+	.pmitadgris {
+background-color: #71897D;
+height: 80px;
+width: 100%;
+float: left;
+}
+.pmitadroja {
+background-color: #B20000;
+height: 80px;
+width: 100%;
+float: right;
+}
 }
 
 
@@ -591,5 +604,20 @@ h1{font-size:35px; text-align: center; }
 	.links-nav{
 		visibility: hidden;
 	}
+
+	.pmitadgris {
+background-color: #71897D;
+height: 80px;
+width: 100%;
+float: left;
+}
+.pmitadroja {
+background-color: #B20000;
+height: 80px;
+width: 100%;
+float: right;
+}
+
+.opinion{visibility: hidden;}
 
 }
