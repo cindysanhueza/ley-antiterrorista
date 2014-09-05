@@ -4,7 +4,7 @@
 
 /*------------------------------------------------------------------CONTENEDORES*/
 body {
-background-image: url(../img/encapuchado.jpg);
+background-image: url(../imagenes/encapuchado.jpg);
 background-color: #000;	
 background-repeat: no-repeat;
 background-position: top right;
@@ -108,8 +108,12 @@ padding-bottom: 90px;
 }
 .actualidad {
 background-color: #B20000;
-padding-top: 70px;
+padding-top: 20px;
 padding-bottom: 90px;
+}
+
+.bajadas img{
+	padding-top:20px;
 }
 /*--------------------------------------------------TIPOGRAFÍAS*/
 /*--------------------------------------------------TIPOGRAFÍAS*/
@@ -193,21 +197,26 @@ color: #fff !important;
 color: #000 !important;
 text-decoration: none !important;
 }
-.conducta a, p {
-color: #fff !important;
+.actualidad p span{
+	font-family: "Arvo";
+	font-size:20px;
+	text-align:center!important;
+	color: #000000!important;
+	font-weight: 400"italic" !important;
 }
 .conducta p {
 font-family: "Raleway";
 font-size: 20px;
 text-align: center;
 padding-top: 20px;
+color:#fff;
 }
 .iconp {
 padding-top: 70px;
 font-size: 18px;
 }
 .titulosh2c a{
-color: #fff !important;
+
 }
 .conflicto h3 {
 color:#fff !important;
@@ -263,13 +272,17 @@ display: inline;
 	font-weight: 400!important;	
 }
 
-.actualidad p span{
-	font-family: "Arvo";
-	font-size:20px;
-	text-align:center!important;
-	color: #000000!important;
-	font-weight: 400"italic" !important;
+
+.titulo-actualidad h2 a{
+	font-family: "Raleway";
+	font-weight: 300!important;
+	font-size:60px;
+	text-align: center!important;
+	color: #000000;
+	text-align: center;
+
 }
+
 
 /*--------------------------------------------------css16 columnas*/
 /*--------------------------------------------------css16 columnas*/
@@ -358,10 +371,78 @@ width: 40px;
 
 /*fin muestras*/
 
-/*Actualidad*/
+/*fuentes*/
+.referencias{
+	float: center;
+}
+.referencias p{
+	font-family: "Arvo";
+	font-size:20px;
+	text-align:center!important;
+	color: #fff;
+	font-weight: 400!important;
+	text-decoration: none;
+	list-style: none;
+	padding-top: 20px;
+}
+ 
+
+.referencias li {
+	font-family: "Raleway";
+	font-size:20px;
+	text-align:left !important;
+	color: #fff;
+	font-weight: 400!important;
+	text-decoration: none;
+	list-style: none;
+	padding-top: 20px;
+	padding-left: 10px;
+	display: block;
+	padding-bottom: 40px;
+}
+
+.referencias li:hover {
+color: #B20000 !important;
+font-size: 20px;
+border-bottom: 5px white !important;
+
+}
+
+.texto p{
+	font-family: "Arvo";
+	font-size:22px!important;
+	text-align: center;
+	float: center;
+	font-weight: 400;
+	color:#fff;
+	padding-bottom: 5px;
+}
+
+ .texto p span{
+	font-family: "Arvo";
+	font-size:22px!important;
+	color:#D80000;
+	font-weight: 400;
+}
 
 
-/*fin actualidad*/
+.texto-opinion p{
+	font-family: "Arvo";
+	font-size:20px;
+	text-align: center;
+	color: #fff;
+	font-weight: 400!important;
+	margin-top: 73px;
+}
+
+.bajadas p{
+	font-family: "Arvo";
+	font-size:20px;
+	text-align: left!important;
+	color: #fff;
+	font-weight: 400!important;
+	margin-top: 73px;
+}
 
 /*flecha paa subir*/
 .go-top {
