@@ -339,7 +339,7 @@
 	background-color: #71897D;
 	float: left;
 	width: 50%;
-	height: 2000px;
+	height: 1950px;
 	
 	padding-top: 75px;
 }
@@ -348,7 +348,7 @@
 	background-color: #B20000;
 	float: left;
 	width:50%; 
-	height: 2000px;
+	height: 1950px;
 	padding-top: 75px;
 }
 
@@ -748,10 +748,6 @@ float: left;
 	.text-img-opinion p {
     margin-top: 49px;}
 
-    .comillas2 img{
-	width:20px;
-	margin-top:0px!important;
-	float:right;}
 
 
 
