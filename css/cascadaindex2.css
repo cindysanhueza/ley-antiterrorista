@@ -538,7 +538,7 @@ nav{background-color: black; height: 60px;	padding-top: 20px;}
 @media screen and  (max-width: 767px) {
 	.imagen-primera{ height: 100%!important; background: url("../imagenes/fotoinicio767px.jpg") no-repeat center center; 
 	background-position: top; }
-.titulo-antiterrorista h1{font-size: 50px; font text-align: center; }
+h1{font-size: 50px; font text-align: center; }
 	.go-top{visibility: hidden;
 	}
 	.links-nav{
@@ -554,6 +554,7 @@ nav{background-color: black; height: 60px;	padding-top: 20px;}
 @media  screen and (min-width: 321px) and (max-width: 480px) {
 	.imagen-fondo{ height:256px; background: url("../imagenes/fotoinicio480px.jpg") no-repeat center center; 
 	background-position: top;}
+h2{font-size: 28px!important; color:#fff;	margin-top: 95px; padding-bottom: 0px!important;}
 h1{font-size:35px; text-align: center; }
 .go-top{visibility: hidden;
 	}
@@ -570,7 +571,7 @@ h1{font-size:35px; text-align: center; }
 @media  screen and (max-width: 320px) {
 	.imagen-fondo{ height: 171px; background: url("../imagenes/fotoinicio320px.jpg") no-repeat center center; 
 	 background-position: top;}
-	h2{font-size: 22px!important;	margin-top: 95px; padding-bottom: 0px!important;}
+	h2{font-size: 22px!important; color:#fff;	margin-top: 95px; padding-bottom: 0px!important;}
 	h1{font-size:30px; text-align: center; padding-bottom: 0px!important;}
 	.go-top{visibility: hidden;
 	}
