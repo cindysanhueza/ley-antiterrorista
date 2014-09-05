@@ -305,7 +305,7 @@ font-family: "Raleway";
 	font-family: "Raleway";
 	font-weight: 300!important;
 	font-size:60px;
-	padding-top: 10px;
+	padding-top: 25px;
 	color: #fff!important;
 	text-align: center!important;
 	text-decoration: none!important;
@@ -570,6 +570,7 @@ float: left;
 
 .footer ul{
 	padding-top: 37px;
+	padding-left: 80px;
 }
 
 .footer ul li{
@@ -585,16 +586,9 @@ float: left;
 
 .footer ul li:hover{
 	font-weight: 700!important;
+	display: block;
 }
 
-.footer-descarga{
-	 border: 1px solid #fff;
-    padding: 21px 30px;
-    width: 280px;
-    border-radius: 15px;
-    margin-top: 37px;
-
-}
 
 .footer-descarga li{
 	font-family: "Raleway";
@@ -603,12 +597,83 @@ float: left;
 	color: #fff;
 	font-weight: 700!important;
 	list-style: none;
+	border: 1px solid #fff;
+    padding: 21px 30px;
+    width: 280px;
+    border-radius: 15px;
+    margin-top: 37px;
+    margin-left:35px;
+}
+
+.footer-descarga p{
+	font-family: "Raleway";
+	font-size:20px;
+	text-align:right!important;
+	color: #fff;
+	font-weight: 400!important;
+	list-style: none;
+	padding-top: 17px;
 }
 
 .footer-descarga li:hover{
 	font-weight: 400!important;
+	display: block;
+}
+
+.footer-contacto{
+	padding-top: 37px;
+}
+
+.footer-contacto ul{
+	padding-left: 120px;
+}
+
+.footer-contacto li{
+	font-family: "Arvo";
+	font-size:20px;
+	text-align:left !important;
+	color: #fff;
+	font-weight: 400!important;
+	text-decoration: none;
+	list-style: none;
+	padding-top: 8px;
 
 }
+
+.footer-contacto li span{
+	font-family: "Raleway";
+	font-size:20px;
+	text-align:left !important;
+	color: #fff;
+	font-weight: 400!important;
+	text-decoration: none;
+	list-style: none;
+	padding-top: 8px;
+	padding-right: 0px;
+}
+
+
+/*flecha paa subir*/
+.go-top {
+	  position: fixed;
+	  bottom: 1em;
+	  right: 1em;
+	  text-decoration: none;
+	  color: #fff;
+
+
+	  font-size: 12px;
+  padding: 0em;
+	  display: block;
+	}
+	 
+.go-top img{
+	
+}
+	.go-top:hover {
+	  background-color: rgba(0, 0, 0, 0.6);
+	}
+/*término flecha*/
 
 
 /* Large desktops and laptops LG*/

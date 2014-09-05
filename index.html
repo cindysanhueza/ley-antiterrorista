@@ -92,7 +92,7 @@
 							<div class="col-sm-16  visible-lg visible-md-min-width: 992px hidden-sm-768px hidden-xs links-nav ">
 
 								<ul>
-									<li><a href="#historia" >HISTORIA</a></li>
+									<li><a href="#historia">HISTORIA</a></li>
 									<li><a href="#conflicto">CONFLICTO</a></li>
 									<li><a href="#opinion">OPINIÓN</a></li>
 									<li><a href="#actualidad">ACTUALIDAD</a></li>
@@ -122,11 +122,8 @@
 -->
 
 		<a name="historia"><div id="color-rojo"></a>   <!--Div exterior para el color-->
-			<!--<div class="col-sm-5  col-md-6 col-lg-6  div-historia-izquierda"></div>-->
 			<div class="container"> <!--Contenedor (Hace que todo en el interior quede centrado)-->
-				<!-- <div class="row">
-					<div class="col-xs-16 col-sm-16 col-md-16 col-lg-16 historia"><h2>HISTORIA</h2></div>
-				</div> -->
+				
 			<h2 class="historia"><span>HISTORIA </span></h2>
 				<div class="row">  <!--Fila contiene imagen y texto-->
 					<div class="col-sm-5 col-md-5 col-md-offset-2 col-lg-5 col-lg-offset-2 historia-1984"><img src="imagenes/dictadura.png"></div>
@@ -312,7 +309,7 @@
 
 
 <a name="actualidad"><div id="area-roja-actualidad"></a>
-	<div class="container">
+	
 		<div class="row">
 			<div class="titulo-actualidad"><h2>ACTUALIDAD</h2></div>
 
@@ -324,15 +321,15 @@
 
 			</div>
 		</div>
-	</div>
+	
 </div>				
 
 
 <footer>
 	<div class="area-footer">
-        <div class="container">
+        
 			<div class="row">
-				<div class="col-xs-2  col-sm-2 col-md-2 col-lg-2 footer">
+				<div class="col-xs-2  col-sm-2 col-md-2 col-lg-2 col-lg-offset-1 footer">
 					<ul>
 				        <li><a href="#historia" >HISTORIA</a></li>
 				        <li><a href="#conflicto">CONFLICTO</a></li>
@@ -342,50 +339,23 @@
 				</div>
 				<div class="col-xs-16  col-sm-16 col-md-4S col-md-offset-1 col-lg-4 col-lg-offset-2 footer-descarga">
 					<li><a href=" http://www.leychile.cl/Navegar?idNorma=29731#top&r=1" >DESCARGA LA LEY</a></li>
-				</div>
+					<p>PDF: 123 mb.</p></div>
 
-				<div class="col-xs-2  col-sm-2 col-md-7 col-md-offset-7 col-lg-7 col-lg-offset-1 footer">
-					 	<li><a href="#historia" >HISTORIA</a></li>
-				        <li><a href="#conflicto">CONFLICTO</a></li>
-				        <li><a href="opinion">OPINIÓN</a></li>
-				        <li><a href="#esc3">ACTUALIDAD</a></li>
+				<div class="col-xs-2  col-sm-2 col-md-7 col-md-offset-2 col-lg-6 col-lg-offset-2 footer-contacto">
+					 	<li><span>CONTACTO:</span> leyantiterrorista@gmail.com</li>
+						 <ul>
+					        <li>(+569) 97 797 899</li>
+					        <li>#leyantiterroristachile</a></li>
+					    </ul>
 				</div>
 
 			</div>
-		</div>
+		
 	</div>
 
-
+	<a class="go-top" href="#"><img src="imagenes/arrow241.svg"></a>
 </footer>
 
-
-
-
-
-
-<!--
-		<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-1 ej1"></div>
-			<div class="col-md-1 ej2"></div>
-			<div class="col-md-1 ej1"></div>
-			<div class="col-md-1 ej2"></div>
-			<div class="col-md-1 ej1"></div>
-			<div class="col-md-1 ej2"></div>
-			<div class="col-md-1 ej1"></div>
-			<div class="col-md-1 ej2"></div>
-			<div class="col-md-1 ej1"></div>
-			<div class="col-md-1 ej2"></div>
-			<div class="col-md-1 ej1"></div>
-			<div class="col-md-1 ej2"></div>
-			<div class="col-md-1 ej1"></div>
-			<div class="col-md-1 ej2"></div>
-			<div class="col-md-1 ej1"></div>
-			<div class="col-md-1 ej2"></div>
-		</div>
-		</div>
-	
--->
 
 		<!-- script menu responsive -->
 
@@ -409,6 +379,27 @@
 
     <!-- fin script menú responsive -->
 
-	</body>
+    <!-- JavaScript -->
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	  <script>
+	    $(document).ready(function() {
+      // Show or hide the sticky footer button
+	      $(window).scroll(function() {
+	        if ($(this).scrollTop() > 200) {
+          $('.go-top').fadeIn(200);
+	        } else {
+	          $('.go-top').fadeOut(200);
+	        }
+	      });
+	 
+	      // Animate the scroll to top
+	      $('.go-top').click(function(event) {
+	        event.preventDefault();
+ 
+	        $('html, body').animate({scrollTop: 0}, 300);
+	      })
+	    });
+	  </script>
 
-	</html>
+</body>
+</html>
