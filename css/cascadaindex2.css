@@ -4,7 +4,7 @@
 
 /*------------------------------------------------------------------CONTENEDORES*/
 body {
-background-image: url(../imagenes/encapuchado.jpg);
+background-image: url(../imagenes/fotoinicio992px.jpg);
 background-color: #000;	
 background-repeat: no-repeat;
 background-position: top right;
@@ -280,9 +280,14 @@ display: inline;
 	text-align: center!important;
 	color: #000000;
 	text-align: center;
-
 }
-
+.titulo-actualidad p span{
+	font-family: "Arvo";
+	font-size:20px;
+	text-align:center!important;
+	color: #000000;
+	font-weight: 700!important;
+}
 
 /*--------------------------------------------------css16 columnas*/
 /*--------------------------------------------------css16 columnas*/
@@ -465,3 +470,125 @@ border-bottom: 5px white !important;
 	  background-color: rgba(0, 0, 0, 0.6);
 	}
 /*término flecha*/
+
+
+/*Diseño responsive jquery*/
+
+/* Large desktops and laptops LG*/
+@media screen and (min-width: 1280px) {
+	.nav-collapse ul li{display: hidden; z-index: 1;}
+	.imagen-fondo{  height: 639px!important; background: url("../imagenes/fotoinicio1200px.jpg") no-repeat center center; }
+	.comillas{ width:30px;}
+	.go-top{visibility: visible;
+	}
+	
+
+
+}
+
+
+
+
+
+/* Portrait tablets and medium desktops MD*/
+@media screen and  (min-width: 992px) and (max-width: 1199px) {
+	.imagen-fondo{ height:528px!important; background: url("../imagenes/fotoinicio992.jpg") no-repeat  center center; 
+	background-position: top; }
+		.go-top{visibility: visible;
+	}
+		.links-nav{
+		visibility: visible;
+	}
+}
+
+
+
+
+
+
+
+/* Portrait tablets and small desktops SM*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+ h1{	font-size: 50px!important; padding-top:40px; padding-bottom: 0px!important; }
+h2{font-size: 35px!important;	margin-top: 78px; }
+
+
+body{ height: 409px!important; background-image: url("../imagenes/tablet-fotoinicio") no-repeat center center;
+background-position: top; }
+
+
+nav{background-color: black; height: 60px;	padding-top: 20px;}
+.links-nav li{font-family: "Raleway"; font-size:16px; height: 400; float:left; margin-top:0px;}
+.hitos img{	margin-top: 50px; width: 229px; height: 229px; margin-left: 0px!important;}
+.hitos-text p{	font-family: "Arvo"; font-size:18px; font-weight: 700!important; margin-top: 80px;}
+.iconos p{font-family: "Raleway"; font-size:16px;	margin-top: 47px;	padding-bottom: 86px;}
+	.go-top{visibility: visible;
+	}
+		.links-nav{
+		visibility: visible;
+	}
+}
+
+
+
+
+
+/* Landscape phones and portrait tablets XS*/
+@media screen and  (max-width: 767px) {
+	.imagen-primera{ height: 100%!important; background: url("../imagenes/fotoinicio767px.jpg") no-repeat center center; 
+	background-position: top; }
+.titulo-antiterrorista h1{font-size: 50px; font text-align: center; }
+	.go-top{visibility: hidden;
+	}
+	.links-nav{
+		visibility: visible;
+	}
+}
+
+
+
+
+
+/* Landscape phones and smaller XS */
+@media  screen and (min-width: 321px) and (max-width: 480px) {
+	.imagen-fondo{ height:256px; background: url("../imagenes/fotoinicio480px.jpg") no-repeat center center; 
+	background-position: top;}
+h1{font-size:35px; text-align: center; }
+.go-top{visibility: hidden;
+	}
+	.links-nav{
+		visibility: hidden;
+	}
+}
+
+
+
+
+
+/*XS*/
+@media  screen and (max-width: 320px) {
+	.imagen-fondo{ height: 171px; background: url("../imagenes/fotoinicio320px.jpg") no-repeat center center; 
+	 background-position: top;}
+	h2{font-size: 15px!important;	margin-top: 95px; padding-bottom: 0px!important;}
+	h1{font-size:30px; text-align: center; padding-bottom: 0px!important;}
+	.go-top{visibility: hidden;
+	}
+	
+	.texto p{	
+		font-family: "Arvo";	
+		font-size:15px!important; 
+		margin-top: 20px;
+	}
+	
+	.texto p span{	
+		font-family: "Arvo";	
+		font-size:17px!important;	
+		font-weight: 400;
+	}
+
+	.links-nav{
+		visibility: hidden;
+	}
+
+}
