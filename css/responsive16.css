@@ -491,6 +491,7 @@ font-family: "Raleway";
 	color: #fff;
 	font-weight: 700!important;
 	margin-top: 49px;
+
 }
 
 .texto-graficos p{
@@ -500,31 +501,133 @@ font-family: "Raleway";
 	color: #fff;
 	font-weight: 400!important;
 	margin-top: 73px;
+
 }
 
 .img-responsive{
 	padding-top: 45px;
 }
 
+.texto-muestras img{
+margin: 5px 0px 5px 0px;
+float: left;
+}
+
+.texto-muestras p{
+	font-family: "Raleway";
+	font-size:18px;
+	text-align:left !important;
+	color: #fff;
+	font-weight: 400!important;
+	padding-left: 70px;
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+/*Sección actualidad*/
+#area-roja-actualidad{
+	background-color: #B20000!important;
+	height: 975px;
+}
+
+.titulo-actualidad h2{
+	font-family: "Raleway";
+	font-weight: 300!important;
+	font-size:60px;
+	padding-top: 120px;
+	text-align: center!important;
+	color: #000000;
+	text-align: center;
+	padding-bottom: 78px;
+}
+
+.texto-seccion-actualidad p{
+	font-family: "Arvo";
+	font-size:20px;
+	text-align:center !important;
+	color: #000000;
+	font-weight: 400!important;
+	padding-top: 40px;
+
+}
+
+.texto-seccion-actualidad p span{
+	font-family: "Arvo";
+	font-size:20px;
+	text-align:center!important;
+	color: #000000;
+	font-weight: 700!important;
+}
+
+
+
+/*Footer*/
+
+.area-footer{
+	background-color: #000000!important;
+	height: 252px;
+}
+
+.footer ul{
+	padding-top: 37px;
+}
+
+.footer ul li{
+	font-family: "Raleway";
+	font-size:20px;
+	text-align:left !important;
+	color: #fff;
+	font-weight: 400!important;
+	text-decoration: none;
+	list-style: none;
+	padding-top: 8px;	
+}
+
+.footer ul li:hover{
+	font-weight: 700!important;
+}
+
+.footer-descarga{
+	 border: 1px solid #fff;
+    padding: 21px 30px;
+    width: 280px;
+    border-radius: 15px;
+    margin-top: 37px;
+
+}
+
+.footer-descarga li{
+	font-family: "Raleway";
+	font-size:20px;
+	text-align:center!important;
+	color: #fff;
+	font-weight: 700!important;
+	list-style: none;
+}
+
+.footer-descarga li:hover{
+	font-weight: 400!important;
+
+}
 
 
 /* Large desktops and laptops LG*/
 @media screen and (min-width: 1280px) {
 	.nav-collapse ul li{display: hidden; z-index: 1;}
-	.imagen-primera{ width:100%;  height: 660px!important; background: url('../imagenes/fotoinicio.jpg') no-repeat center center; 
-	background-size:cover; }
+	.imagen-primera{ height: 660px!important; background: url("../imagenes/fotoinicio992px.jpg") no-repeat center center; 
+	background-position: top;}
 }
 
 /* Portrait tablets and medium desktops MD*/
-@media screen (min-width: 992px) and (max-width: 1199px) {
-	.imagen-primera{ height:528px!important; background: url('../imagenes/fotoinicio992px.jpg') no-repeat  center center; 
+@media screen and  (min-width: 992px) and (max-width: 1199px) {
+	.imagen-primera{ height:528px!important; background: url("../imagenes/fotoinicio992px.jpg") no-repeat  center center; 
 	background-position: top; }
 .text-opiniones2 h4{padding-bottom: 307px;}
 .div-titulo-arriba{width:60%;	}
 }
 
 /* Portrait tablets and small desktops SM*/
-@media screen (min-width: 768px) and (max-width: 991px) {
+@media screen and  (min-width: 768px) and (max-width: 991px) {
 
 .titulo-antiterrorista h1{	font-size: 50px; margin-top: -7px; }
 .titulo-ley h2{font-size: 35px!important;	margin-top: 78px; }
@@ -532,7 +635,7 @@ font-family: "Raleway";
 .div-titulo-arriba{	height:2px;	width:53.77%; margin-top: -9px; float: center; margin-left: 23.21%;}
 .div-titulo-abajo{	height:3px;	width:59%;	margin-top:-11px; float: center; margin-left: 20.61%;}
 
-.imagen-primera{ width: 100%; height: 409px!important; background-image: url(../imagenes/tablet-fotoinicio) no-repeat fixed center center;
+.imagen-primera{ height: 409px!important; background-image: url("../imagenes/tablet-fotoinicio") no-repeat center center;
 background-position: top; }
 
 .definicion{margin-top: 79px;}
@@ -564,23 +667,23 @@ nav{background-color: black; height: 60px;	padding-top: 20px;}
 }
 
 /* Landscape phones and portrait tablets XS*/
-@media (max-width: 767px) {
-	.imagen-primera{ width: 100%; height: 100%!important; background: url(../imagenes/fotoinicio600px.jpg) no-repeat fixed center center; 
+@media screen and  (max-width: 767px) {
+	.imagen-primera{ height: 100%!important; background: url("../imagenes/fotoinicio767px.jpg") no-repeat center center; 
 	background-position: top; }
 .titulo-antiterrorista h1{font-size: 50px; font text-align: center; background-color: orange;}
 
 }
 
 /* Landscape phones and smaller XS */
-@media  (min-width: 321px) and (max-width: 480px) {
-	.imagen-primera{ height:256px; background: url(../imagenes/fotoinicio480px.jpg) no-repeat fixed center center; 
-	/*background-size:cover; */background-position: top;}
+@media  screen and (min-width: 321px) and (max-width: 480px) {
+	.imagen-primera{ height:256px; background: url("../imagenes/fotoinicio480px.jpg") no-repeat center center; 
+	background-position: top;}
 .titulo-antiterrorista h1{font-size:35px; text-align: center; background-color: green;}
 }
 /*XS*/
 @media  screen and (max-width: 320px) {
-	.imagen-primera{ height: 171px; background: url(../imagenes/fotoinicio320px.jpg) no-repeat center center; 
-	/*background-size:cover;*/ background-position: top;}
+	.imagen-primera{ height: 171px; background: url("../imagenes/fotoinicio320px.jpg") no-repeat center center; 
+	 background-position: top;}
 .titulo-antiterrorista h1{font-size:30px;text-align: center; background-color: red; }
 
 
