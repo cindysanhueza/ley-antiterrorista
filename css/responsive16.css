@@ -660,6 +660,39 @@ float: left;
 }
 
 
+.linea-footer{
+	background-color: #fff;
+	height: 2px;
+}
+
+.referencias p{
+	font-family: "Arvo";
+	font-size:20px;
+	text-align:center!important;
+	color: #fff;
+	font-weight: 400!important;
+	text-decoration: none;
+	list-style: none;
+	padding-top: 20px;
+}
+ 
+
+.referencias li {
+	font-family: "Raleway";
+	font-size:20px;
+	text-align:left !important;
+	color: #fff;
+	font-weight: 400!important;
+	text-decoration: none;
+	list-style: none;
+	padding-top: 20px;
+	padding-left: 10px;
+	display: block;
+	padding-bottom: 40px;
+}
+
+
+
 /*flecha paa subir*/
 .go-top {
 	  position: fixed;
@@ -782,12 +815,12 @@ nav{background-color: black; height: 60px;	padding-top: 20px;}
 	.imagen-primera{ height: 171px; background: url("../imagenes/fotoinicio320px.jpg") no-repeat center center; 
 	 background-position: top;}
 	.titulo-ley h2{font-size: 15px!important;	margin-top: 95px; padding-bottom: 0px!important;}
-	.titulo-antiterrorista h1{font-size:30px; text-align: center; }
+	.titulo-antiterrorista h1{font-size:30px; text-align: center; padding-bottom: 0px!important;}
 	
-	.fondo-para-movil{
+	/*.fondo-para-movil{
 		padding-top: 0px;
 		background-color: #000000;
-	}
+	}*/
 	
 	.definicion p{	
 		font-family: "Arvo";	
